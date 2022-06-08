@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api solicitada como desafio tecnico para CopyWrite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w ./tests/*.test.js",
+    "start": "nodemon -L"
+  },
+  "author": "zzzNitro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3",
+    "supertest-session": "^4.1.0"
+  }
+}
